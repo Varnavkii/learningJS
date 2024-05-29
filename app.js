@@ -1,14 +1,15 @@
-//Базовые арифмитические операторы
-const width = 10;
-const height = 5;
-const space = 10 * 5;
-const newWidth = width - 4;
-const newWidth2 = width + 4;
-const division = newWidth / newWidth2;
-const volume = 2 ** 3; //  2 * 2 * 2
-console.log(volume);
+const isSuited = 100 - 10 > 90 -5;
+console.log(isSuited);
 
-// Строки
-const city = 'Москва';
-const street = 'Новослободская';
-console.log(city + ', ' + street + ' ' + 5);
+/*https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+100 - (11) 10 > (10) 90 - (11) 5
+*/
+
+const a = (6 + 10) / 2;
+console.log(a);
+
+let b;
+let c;
+c = b = 100 + 50 + 30;
+console.log(c);
+console.log(b);
