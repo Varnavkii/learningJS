@@ -1,4 +1,8 @@
 body {
-    background-color: #1c1b21;
     text-align: center;
+}
+
+.logo {
+    width: 500px;
+    height: 300px;
 }
